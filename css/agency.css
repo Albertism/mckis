@@ -65,8 +65,14 @@ h6 {
     margin: 0 auto;
 }
 
+.bg-event {
+    /*background-color:  rgba(236,29,37,.02);*/
+    background-color: white;
+}
+
 .bg-light-gray {
-    background-color: #f7f7f7;
+    /*background-color: #E41937;*/
+    background-color: white;
 }
 
 .bg-darkest-gray {
