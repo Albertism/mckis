@@ -821,9 +821,10 @@ ul.social-buttons li a:active {
     /*padding-right: 5%;*/
 }
 
-.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content .portfolio-modal-header {
     margin-bottom: 15px;
     font-size: 3em;
+    font-weight: bolder;
 }
 
 .portfolio-modal .modal-content p {
