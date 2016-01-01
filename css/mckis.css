@@ -3,7 +3,22 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ @font-face {
+     font-family: "nanum";
+     src: url("../fonts/nanum.ttf");
+}
 
+@font-face {
+    font-family: "nanum-body";
+    src: url("../fonts/nanumbarungothiclight.ttf");
+}
+.nanum-bold{
+    font-family: "nanum";
+}
+
+.nanum-body{
+    font-family: "nanum-body";
+}
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -368,6 +383,10 @@ section h3.section-subheading {
     }
 }
 
+#aboutus .nanum-bold {
+    font-size: 24px;
+}
+
 .aboutUs-heading {
     margin: 15px 0;
     text-transform: none;
@@ -436,6 +455,7 @@ section h3.section-subheading {
 .portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    font-size: 30px;
 }
 
 .portfolio .portfolio-item .portfolio-caption p {
@@ -794,6 +814,20 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+.portfolio-modal .nav-left:hover, .nav-right:hover {
+    color: #eb4847;
+}
+
+.portfolio-modal .modal-content .nav-left {
+    margin-right: 20%;
+    cursor: pointer;
+
+}
+.portfolio-modal .modal-content .nav-right {
+    cursor: pointer;
+    margin-left: 20%;
 }
 
 .portfolio-modal .modal-content {
