@@ -2,9 +2,9 @@
     var self = this;
     //array of current project modal ids
     
-    var projectArray = $('#project').find('a').map(function(i, x) { 
-         return $(x).attr('href'); 
-    });
+    // var projectArray = $('#project').find('a').map(function(i, x) { 
+    //      return $(x).attr('href'); 
+    // });
 
     $('.nav-left').on('click', function(e) {      
         var $currentElem = $(this).parents('.portfolio-modal');

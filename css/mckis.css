@@ -474,6 +474,23 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+section#team .nav-content-left:hover, .nav-content-right:hover {
+    color: #eb4847;
+}
+
+section#team .nav-content-left {
+    font-size: 6em;
+    margin-top: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+section#team .nav-content-right {
+    font-size: 6em;
+    margin-top: 100%;
+    cursor: pointer;
+    position: absolute;
+}
 
 .team-member {
     margin-bottom: 50px;
@@ -489,6 +506,7 @@ section h3.section-subheading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    font-size: 30px;
 }
 
 .team-member p {
