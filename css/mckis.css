@@ -372,8 +372,8 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 17px;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -474,43 +474,9 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
-section#team .nav-content-left:hover, .nav-content-right:hover {
-    color: #eb4847;
-}
 
-section#team .nav-content-left {
-    font-size: 6em;
-    margin-top: 100%;
-    cursor: pointer;
-    position: absolute;
-}
-
-section#team .nav-content-right {
-    font-size: 6em;
-    margin-top: 100%;
-    cursor: pointer;
-    position: absolute;
-}
-
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-    font-size: 30px;
-}
-
-.team-member p {
-    margin-top: 0;
+section #team h3 {
+    font-size: 25px;
 }
 
 aside.clients img {
