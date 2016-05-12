@@ -22,7 +22,7 @@
 
     $('.nav-content-right').on('click', function(e) {
         var currentRow = $.find('.team-row:visible')[0]; //finds current row
-        var curIndex = $(currentRow).index(memberArray); //index of current row in entire team-row array
+        var curIndex = $(currentRow).index(memberArray); //index of current row in entier team-row array
         var nextIndex;
 
         if(curIndex == memberSize - 1) //there is no next index
@@ -37,21 +37,7 @@
         $(nextRow).stop().toggle('slide',{direction: 'left'});
         e.stopPropagation();
 
-        // $(currentRow).fadeOut(function() {
-        //     $(currentRow).toggle('slide', {
-        //         direction:'left'
-        //     }, 400);
-        //     });
-    
 
-        // if($nextElem.length == 0) {
-        //     $nextElem = $(this).parents('.modal-collection').children().first();
-        // }
-
-        // $currentElem.modal('hide');
-        // window.setTimeout(function(){ 
-        //     $nextElem.modal('show'); 
-        // }, 500); 
     });
 
 
