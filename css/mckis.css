@@ -24,6 +24,11 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.mckis-logo{
+    width: 150px;
+    height: 50px;
+}
+
 .missing-content{
     color: red;
     cursor: pointer;
@@ -279,7 +284,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: rgb(72, 72, 72);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
